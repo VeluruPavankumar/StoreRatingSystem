@@ -36,7 +36,7 @@ Installation and Setup
 git clone https://github.com/VeluruPavankumar/StoreRatingSystem.git
 cd StoreRatingSystem
 
-2. Backend Setup (Node.js + Express + MongoDB)
+2. Backend Setup (Node.js + Express + MySQL)
 
 cd backend
 npm install
