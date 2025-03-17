@@ -25,6 +25,7 @@ const Signup = () => {
       <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} placeholder="Password" required />
       <input type="text" value={address} onChange={(e) => setAddress(e.target.value)} placeholder="Address" required />
       <button type="submit">Signup</button>
+  <button onClick={() => navigate("/")}>Sign In</button>
     </form>
   );
 };
